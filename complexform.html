@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+</head>
+<body>
+    <form>
+        <h2>Complex Form</h2>
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="emailID">Email id:</label>
+            <input type="email" id="emailID" name="emailID">
+            <br>
+            <br>
+            <label for="phone">contact:</label>
+            <input type="tel" id="phone" name="contact">
+            <br>
+            <br>
+            <label for="datepicker">Date picker:</label>
+            <input type="date" name="datepicker" id="datepicker">
+            <br>
+            <br>
+            <span>Gender:</span>
+            <label for="radio1">male</label>
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio2">female</label>
+            <input type="radio" name="radio" id="radio2">
+            <br>
+            <br>
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Russia">Russia</option>
+                <option value="Italy">Italy</option>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>
+                <label for="textarea">Address</label>
+                <input type="textarea" name="textarea" id="textarea">
+                <label for="textarea">City</label>
+                <input type="textarea" name="textarea" id="textarea">
+                <label for="textarea">State</label>
+                <input type="textarea" name="textarea" id="textarea">
+                <label for="textarea">Zip code</label>
+                <input type="textarea" name="textarea" id="textarea">
+            </legend>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="textarea">Comments</label>
+            <textarea name="textarea" id="textarea" width="30" height="10" placeholder="type here"></textarea>
+            <label for="checkbox1">I agree to the terms of service</label>
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+        </fieldset>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
